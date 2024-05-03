@@ -1,0 +1,324 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;  /* this will try to make the border inside the box */
+}
+/* FOR BOX1 */
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+
+}
+.logo{
+    background-image: url(sita.png);
+    background-size:cover;
+    height: 20px;
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 10px;
+   
+}
+.border{
+    border: 1px solid transparent;
+}
+.border:hover{
+    border:1px solid white;
+}
+ 
+/* FOR BOX2 */
+.navbar-address{
+    height: 60px;
+    width: 85px;
+
+    
+}
+.add-first{
+    color: #cccccc;
+    font-size: 0.65rem;
+    padding-left:35px ;
+    padding-top: 5px;
+}
+.add-secound{
+    font-size: 1rem;
+    padding-left: 3px;
+  
+}
+.add-icon{
+    display:flex ;
+    align-items: center;
+    padding-left: 20px;
+
+}
+
+
+/* FOR BOX3 */
+.nav-search{
+    width: 600px;
+    display: flex;
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+.search-input{
+    height: 35px;
+    width: 517px;
+    border: none;
+}
+.search-select{
+    height: 35px;
+    width: 42px;
+    color:#333;
+    background-color:gainsboro;
+    border-radius: 6px 0 0 6px;
+    text-align: center;
+    border: none;
+}
+.search-select:hover{
+    color: #0f1111;
+    background-color:   #D3D3D3;
+
+}
+.search-icon{
+    height: 35px;
+    width: 41px;
+    display: flex;
+    background-color: goldenrod;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 6px 6px 0;
+    font-size: 1.2rem;
+    color: #0f1111;
+    margin-right: -50px;
+
+}
+.search-icon:hover{
+
+    background-color:#FF8C00;
+}
+
+/* FOR BOX 4&5 */
+
+span{
+    font-size: 12px;
+    color: #ffffff;
+}
+.nav-secound{
+    font-size: 14px;
+    font-weight: 700;
+}
+/* FOR BOX 6 */
+.nav-cart i{
+    font-size: 30px;
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* For 2nd Part */
+.panel{
+    height: 39px;
+    color: white;
+    background-color: #222f3d;
+    display: flex;
+    align-items: center;
+
+}
+.panel-all{
+    height: 39px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.panel-all i{
+      font-size: 19px;
+    padding-right: 5px;
+}
+ .panel-ops p{
+    display: inline;
+       margin-left: 9px;
+
+ }
+ .panel-ops{
+    height: 39px;
+    font-size: 0.85rem;
+    width: 865px;
+    display: flex;
+    align-items: center;
+ }
+ .panel-deals{
+    height: 39px;
+    width: 300px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+ }
+
+ /* for hero-section */
+ .hero-section{
+    height: 270px;
+    background-image: url(herosection.png);
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    
+ }
+ .hero-msg{
+    height: 40px;
+    width: 1130px;
+    font-size: 0.85rem;
+    background-color: #f5f5f6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   margin-bottom: 10px;
+ }
+ /* for shop section */
+ .shop-section{
+    background-color: rgba(255, 182, 193,0.3);
+    display: flex;
+    flex-wrap: wrap;
+ }
+ .box{
+    height: 350px;
+    width: 24%;
+    background-color: #f5f5f6;;
+   
+    margin-top: 10px;
+    margin-left: 10px;
+ }
+ .box-img{
+    height: 220px;
+    background-size: cover;
+    margin:15px 10px 15px 0;
+ }
+ .box-content{
+    margin-top: 30px;
+  margin-left: 10px;
+ }
+ .box-content p{
+    color: #007185;
+ }
+ .watch{
+    margin-top: 20px;
+ }
+ .box-mod{
+    margin-top: 9px;
+    padding-bottom: 20px;
+ }
+
+ /* FOR Footer part */
+ footer{
+    margin-top:15px ;
+ }
+  
+ /* For Footer panel 1 */
+
+ .foot-panel1{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    background-color: rgba(34,47,61,0.9);
+    font-size: 0.85rem;
+ }
+
+ /* For Footer panel 2 */
+ .foot-panel2{
+    height: 350px;
+    background-color: #232F3E;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+ } 
+ ul a{
+    display: block;
+    font-size: 14px;
+    color: #dddddd;
+    margin-top: 10px;
+ }
+ ul p{
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 30px;
+ }
+
+  /* For Footer panel 3 */
+
+ .foot-panel3{
+    height: 70px;
+    background-color:#232F3E;
+    border-top: 1px solid white;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+ }
+
+ .foot-con{
+    height: 35px;
+    width: 150px;
+    color: white;
+    border: 1px solid white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 20px;
+ }
+ .foot-logo{
+    height: 61px;
+    width: 123px;
+    background-image: url(Amazon-Symbol.png);
+    background-size: cover;
+    margin-right: 130px;
+
+ }
+ .globe{
+    margin-left: 10px;
+    margin-right: 10px;
+ }
+ .dollar{
+    margin-left: 5px;
+    margin-right: 5px;
+ }
+
+ /* For Footer panel 4 */
+
+ .foot-panel4{
+    height: 80px;
+    background-color: #131A22;
+    color: #dddddd;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 15px;
+ }
+ .pages a{
+    color: #dddddd;
+    margin-right: 7px;
+    text-decoration: none;
+ }
+ .pages a:hover{
+    border-bottom: 1px solid white;
+ }
+ .copywrite{
+    margin-top: 5px;
+ }
+
+/* <-------THE END-------> */
